@@ -1,4 +1,3 @@
-=================================================================
 Transforming the Human Activity Recognition Using Smartphones Dataset into Tidy Data
 =================================================================
 
