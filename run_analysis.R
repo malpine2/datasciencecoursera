@@ -58,6 +58,6 @@ averages <- all %>%
         group_by(subject, activity_name) %>%
         summarise(across(contains(c("std()","mean()")), mean))
 
-## Writes 'averages' data frame to a new .csv file
-write_csv(averages, file.path(getwd(), "averages.csv"))
+## Writes 'averages' data frame to a new .txt file
+write.table(averages, file = "averages.txt", row.names = FALSE)
                         

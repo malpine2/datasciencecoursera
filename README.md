@@ -14,7 +14,7 @@ The repository includes the following files:
 
 - 'run_analysis.R': Creates tidy data set.
 
-- 'averages.csv': Displays averages of mean and standard deviation measurements from original data set, grouped by subject and activity.
+- 'averages.txt': Displays averages of mean and standard deviation measurements from original data set, grouped by subject and activity.
 
 Using run_analysis.R
 =========================================

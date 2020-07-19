@@ -20,9 +20,9 @@ The following steps were taken to clean the data:
 5. Variables in 'all' were filtered using select() to include only those containing 'mean()' or 'std()' in the variable name. Mean frequencies ('meanFreq()') and angle() variable mean measures ('gravityMean', 'tBodyAccMean','tBodyAccJerkMean', 'tBodyGyroMean', and 'tBodyGyroJerkMean') were not included.
 6. Activity names corresponding to activity IDs were added as a new column using left_join().
 7. An independent tidy data set summarizing the mean of each measurement by subject and activity name was created using summarise().
-8. Independent tidy data set was written into a new file, 'averages.csv'.
+8. Independent tidy data set was written into a new file, 'averages.txt'.
 
-Variables in averages.csv:
+Variables in averages.txt:
 -----------------------------------------------------------------
 
 - 'subject': Numeric ID for 30 research subjects.
